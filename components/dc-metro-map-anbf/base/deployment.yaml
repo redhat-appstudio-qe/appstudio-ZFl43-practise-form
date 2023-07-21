@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-anbf
     spec:
       containers:
-      - image: nodejs-image:latest
+      - image: quay.io/redhat-appstudio-qe/release-e2e-pyxis-tenant/appstudio/dc-metro-map-anbf@sha256:dda5da5cd49b983651ef60ff00071dcbb2d31a97aa32c0ab6f2fafa511d6bbe6
         name: my-nodejs
         ports:
         - containerPort: 3001
